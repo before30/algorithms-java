@@ -7,7 +7,7 @@ Minimal and clean example implementations of data structures and algorithms in J
 ## List of Implementations
 
 - [array](src/main/java/cc/before30/algorithms/array)
-    - [circular_counter](src/main/java/cc/before30/algorithms/array/CircularCounter.java)
+    - [x] [circular_counter](src/main/java/cc/before30/algorithms/array/CircularCounter.java)
     - [flatten](array/)
     - [garage](array/)
     - [longest_non_repeat](array/)
