@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * User: before30 
+ * User: before30
  * Date: 2017. 5. 15.
  * Time: PM 12:24
  */
@@ -60,36 +60,37 @@ public class LongestSubstring {
 //		return true;
 //	}
 
-	public static int lengthOfLongestSubstring(String s) {
-		HashSet<Character> set = new HashSet<>();
+    public static int lengthOfLongestSubstring(String s) {
+        HashSet<Character> set = new HashSet<>();
 
-		int n = s.length();
-		int i = 0, j =0;
-		int max = 0;
+        int n = s.length();
+        int i = 0, j = 0;
+        int max = 0;
 
-		while (i < n && j < n) {
-			if (!set.contains(s.charAt(j))) {
-				set.add(s.charAt(j));
-				j++;
-				max = Math.max(max, j - i);
-			} else {
-				set.remove(s.charAt(i));
-				i++;
-			}
-		}
+        while (i < n && j < n) {
+            if (!set.contains(s.charAt(j))) {
+                set.add(s.charAt(j));
+                j++;
+                max = Math.max(max, j - i);
+            } else {
+                set.remove(s.charAt(i));
+                i++;
+            }
+        }
 
-		return max;
-	}
-	public static void main(String[] args) {
-		log.info("{}", lengthOfLongestSubstring(""));
-		log.info("{}", lengthOfLongestSubstring("c"));
-		log.info("{}", lengthOfLongestSubstring("au"));
-		log.info("{}", lengthOfLongestSubstring("abcabcbb"));
-		log.info("{}", lengthOfLongestSubstring("bbbbb"));
-		log.info("{}", lengthOfLongestSubstring("pwwkew"));
-		log.info("{}", lengthOfLongestSubstring("abdefgabef"));
-		log.info("{}", lengthOfLongestSubstring("geeksforgeeks"));
-		log.info("{}", lengthOfLongestSubstring("kdkzcvaykjtcnuljmzkzaryocauolcavimumjxmuggyvaleokqpljqblq"));
+        return max;
+    }
 
-	}
+    public static void main(String[] args) {
+        log.info("{}", lengthOfLongestSubstring(""));
+        log.info("{}", lengthOfLongestSubstring("c"));
+        log.info("{}", lengthOfLongestSubstring("au"));
+        log.info("{}", lengthOfLongestSubstring("abcabcbb"));
+        log.info("{}", lengthOfLongestSubstring("bbbbb"));
+        log.info("{}", lengthOfLongestSubstring("pwwkew"));
+        log.info("{}", lengthOfLongestSubstring("abdefgabef"));
+        log.info("{}", lengthOfLongestSubstring("geeksforgeeks"));
+        log.info("{}", lengthOfLongestSubstring("kdkzcvaykjtcnuljmzkzaryocauolcavimumjxmuggyvaleokqpljqblq"));
+
+    }
 }
