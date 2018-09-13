@@ -14,15 +14,22 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
+apply plugin: 'checkstyle'
 
-group = 'cc.before30'
+checkstyle {
+	ignoreFailures = true // 분석결과 예외가 발생하면 빌드실패 발생시키는 것을 제외
+	configFile = rootProject.file('src/checkstyle/checkstyle.xml')
+    configProperties = [ 'checkstyle.config.dir' : rootProject.file('src/checkstyle') ]
+	reportsDir = file("${buildDir}/checkstyle-output") // 리포트 파일이 위치할 디렉토리 지정
+}
+
+group = 'cc.before30.algorithms'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
 repositories {
 	mavenCentral()
 }
-
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
