@@ -3,6 +3,7 @@ package cc.before30.algorithms.leetcode.binarytree;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Stack;
 
 /**
  * Definition for a binary tree node.
@@ -32,7 +33,7 @@ public class Solution {
         if (Objects.isNull(root)) {
             return output;
         }
-        
+
         // left root right
         if (Objects.nonNull(root.left)) {
             inorderTraversal(root.left);
@@ -44,6 +45,25 @@ public class Solution {
         }
 
         return output;
+    }
+
+    public List<Integer> inorderTraversalIter(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode curr = root;
+        while (curr != null || !stack.isEmpty()) {
+            while (curr != null) {
+                stack.push(root);
+                curr = curr.left;
+            }
+
+            curr = stack.pop();
+            res.add(curr.val);
+            curr = curr.right;
+        }
+
+        return res;
+
     }
 
     public static void main(String[] args) {
