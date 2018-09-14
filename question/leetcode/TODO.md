@@ -1,7 +1,9 @@
 ### [Youtube channel](https://www.youtube.com/channel/UCW4ixpFivk6eJl8b5bFOLkg/videos)
 
 - [x] [LeetCode #155](https://leetcode.com/problems/min-stack/description/#_=_)
-- [ ] LeetCode #94
+- [ ] [LeetCode #239](https://leetcode.com/problems/sliding-window-maximum/description/)
+- [ ] [LeetCode #716](https://leetcode.com/articles/max-stack/)
+- [x] [LeetCode #94](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) 
 - [ ] LeetCode #107
 - [ ] LeetCode #559
 - [ ] LeetCode #136
