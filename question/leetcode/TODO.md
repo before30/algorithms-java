@@ -1,5 +1,6 @@
 ### [Youtube channel](https://www.youtube.com/channel/UCW4ixpFivk6eJl8b5bFOLkg/videos)
 
+- [x] [LeetCode #155](https://leetcode.com/problems/min-stack/description/#_=_)
 - [ ] LeetCode #94
 - [ ] LeetCode #107
 - [ ] LeetCode #559
