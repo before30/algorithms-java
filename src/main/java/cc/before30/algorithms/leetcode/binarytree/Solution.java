@@ -14,17 +14,7 @@ import java.util.Stack;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class TreeNode {
-    int val;
 
-    TreeNode left;
-
-    TreeNode right;
-
-    TreeNode(int x) {
-        this.val = x;
-    }
-}
 
 public class Solution {
     List<Integer> output = new ArrayList<>();
