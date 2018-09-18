@@ -5,7 +5,7 @@
 - [ ] [LeetCode #716](https://leetcode.com/articles/max-stack/)
 - [x] [LeetCode #94](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) 
 - [x] [LeetCode #107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/) 
-- [ ] LeetCode #559
+- [x] [LeetCode #559](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/)
 - [ ] LeetCode #136
 - [ ] LeetCode #1
 - [ ] LeetCode #230
