@@ -13,3 +13,10 @@
 - [ ] LeetCode #876
 - [ ] LeetCode #589
 - [ ] LeetCode #36 
+- [ ] LeetCode #784
+- [ ] LeetCode #37
+- [ ] LeetCode #101
+- [ ] LeetCode #70
+- [ ] LeetCode #20
+- [ ] LeetCode #173
+- [ ] LeetCode #141

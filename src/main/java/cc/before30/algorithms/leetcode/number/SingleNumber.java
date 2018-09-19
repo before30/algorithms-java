@@ -1,7 +1,7 @@
 package cc.before30.algorithms.leetcode.number;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class SingleNumber {
     // non-empty array of integers
@@ -27,6 +27,22 @@ public class SingleNumber {
         return ret;
     }
 
+    public int singleNumber2(int[] nums) {
+        int ret = 0;
+        for (int num : nums) {
+            ret ^= num;
+        }
+
+        return ret;
+    }
+
+    public int singleNumber3(int[] nums) {
+        int setSum = Arrays.stream(nums).boxed().collect(Collectors.toSet()).stream().mapToInt(i -> i).sum();
+        int sum = Arrays.stream(nums).sum();
+
+        return 2 * setSum - sum;
+    }
+    
     public static void main(String[] args) {
 
     }
