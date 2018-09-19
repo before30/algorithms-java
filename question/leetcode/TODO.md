@@ -6,7 +6,7 @@
 - [x] [LeetCode #94](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) 
 - [x] [LeetCode #107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/) 
 - [x] [LeetCode #559](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/)
-- [ ] LeetCode #136
+- [x] [LeetCode #136](https://leetcode.com/problems/single-number/)
 - [ ] LeetCode #1
 - [ ] LeetCode #230
 - [ ] LeetCode #260
