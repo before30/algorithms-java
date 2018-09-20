@@ -42,7 +42,7 @@ public class SingleNumber {
 
         return 2 * setSum - sum;
     }
-    
+
     public static void main(String[] args) {
 
     }
