@@ -10,4 +10,20 @@ public class TreeNode {
     TreeNode(int x) {
         this.val = x;
     }
+
+    public void addNode(int x) {
+        if (this.val > x) {
+            if (this.left == null) {
+                this.left = new TreeNode(x);
+            } else {
+                this.left.addNode(x);
+            }
+        } else {
+            if (this.right == null) {
+                this.right = new TreeNode(x);
+            } else {
+                this.right.addNode(x);
+            }
+        }
+    }
 }
