@@ -10,8 +10,8 @@
 - [x] [LeetCode #1](https://leetcode.com/problems/two-sum/)
 - [x] [LeetCode #230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 - [x] [LeetCode #94](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-- [ ] [LeetCode #260](https://leetcode.com/problems/single-number-iii/)
-- [ ] LeetCode #876
+- [x] [LeetCode #260](https://leetcode.com/problems/single-number-iii/)
+- [x] [LeetCode #876](https://leetcode.com/problems/middle-of-the-linked-list/solution/)
 - [ ] LeetCode #589
 - [ ] LeetCode #36 
 - [ ] LeetCode #784
