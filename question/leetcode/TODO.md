@@ -12,7 +12,7 @@
 - [x] [LeetCode #94](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 - [x] [LeetCode #260](https://leetcode.com/problems/single-number-iii/)
 - [x] [LeetCode #876](https://leetcode.com/problems/middle-of-the-linked-list/solution/)
-- [ ] [LeetCode #908]()https://leetcode.com/contest/weekly-contest-103/problems/smallest-range-i/
+- [ ] [LeetCode #908](https://leetcode.com/contest/weekly-contest-103/problems/smallest-range-i/)
 - [ ] LeetCode #589
 - [ ] LeetCode #36 
 - [ ] LeetCode #784
@@ -22,3 +22,4 @@
 - [ ] LeetCode #20
 - [ ] LeetCode #173
 - [ ] LeetCode #141
+- [ ] [LeetCode #909 Snakes and Ladders](https://leetcode.com/contest/weekly-contest-103/problems/snakes-and-ladders/)
